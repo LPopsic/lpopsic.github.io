@@ -1,11 +1,64 @@
-*{
+body{
     background-color: black;
     height: 1000px;
     margin: 0;
     padding: 0;
 }
-header{
-    background-color: aquamarine;
-    width: 100%;
-    height: 70px;
+.prvr{
+    text-align: center;
+    color: aqua;
+}
+header ul, header li {
+	margin: 0;
+	padding: 0;
+}
+header ul {
+	background: gray;
+	list-style: none;
+	width: 50000px;
+}
+header li {
+	float: left;
+	position: relative;
+}
+header a {
+	background: #30A6E6;
+	color: #FFFFFF;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+header li:hover a {
+	background: #000000;
+}
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+    width: 468px;
+	visibility: hidden;
+	z-index: 1;
+}   
+li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+#submenu a:hover {
+	background: #DF4B05;
+}
+#submenu a {
+	background-color:#000000;
 }
