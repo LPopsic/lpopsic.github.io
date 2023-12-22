@@ -10,7 +10,8 @@ html{
 iframe{
     margin: 0 auto; 
     display: block;
-	border: 5px solid white;
+	border: 10px solid white;
+	border-radius: 30px;
 }
 .prvr{
 	padding-top: 100px;
@@ -25,7 +26,7 @@ header ul, header li {
 header ul {
 	background: gray;
 	list-style: none;
-	width: 2105px;
+	max-width: 2222px;
 }
 header li {
 	float: left;
@@ -73,7 +74,8 @@ li:hover ul#submenu {
 	background-color:#000000;
 }
 .screenshot{
-	padding-top: 150px;
+	padding-top: 75px;
+	padding-bottom: 75px;
 	text-align: center;
 	width: 100%;
 }
@@ -86,7 +88,7 @@ footer{
 	text-align: center;
   	padding: 10px 0;
   	margin-top: 25px;
-  	background-color: #00000038;
+  	background-color: #000000a1;
 }
 .footer_links{
 	text-align: center;
