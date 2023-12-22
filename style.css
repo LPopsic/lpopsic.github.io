@@ -1,6 +1,11 @@
-body{
+*{
     background-color: black;
     height: 1000px;
     margin: 0;
     padding: 0;
+}
+header{
+    background-color: aquamarine;
+    width: 100%;
+    height: 70px;
 }
