@@ -1,4 +1,6 @@
-.prvr{
-    text-align: center;
-    color: aqua;
+body{
+    background-color: black;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
 }
