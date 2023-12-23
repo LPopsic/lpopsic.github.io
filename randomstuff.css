@@ -50,7 +50,7 @@ header li:hover a {
 	opacity: 0;
 	position: absolute;
 	top: 35px;
-    width: 468px;
+    width: 571px;
 	visibility: hidden;
 	z-index: 1;
 }   
