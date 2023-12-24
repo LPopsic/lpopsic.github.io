@@ -50,7 +50,7 @@ header li:hover a {
 	opacity: 0;
 	position: absolute;
 	top: 35px;
-    width: 635px;
+    width: 476px;
 	visibility: hidden;
 	z-index: 1;
 }   
@@ -67,6 +67,30 @@ li:hover ul#submenu {
 	background: #DF4B05;
 }
 #submenu a {
+	background-color:#000000;
+}
+#submenu2 {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+    width: 476px;
+	visibility: hidden;
+	z-index: 1;
+}   
+li:hover ul#submenu2 {
+	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
+#submenu2 li {
+	float: none;
+	width: 100%;
+}
+#submenu2 a:hover {
+	background: #DF4B05;
+}
+#submenu2 a {
 	background-color:#000000;
 }
 footer{
