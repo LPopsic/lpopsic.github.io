@@ -55,7 +55,7 @@ header li:hover a {
 	opacity: 0;
 	position: absolute;
 	top: 35px;
-    width: 378px;
+    width: 375px;
 	visibility: hidden;
 	z-index: 1;
 }   
@@ -79,7 +79,7 @@ li:hover ul#submenu {
 	opacity: 0;
 	position: absolute;
 	top: 35px;
-    width: 376px;
+    width: 374px;
 	visibility: hidden;
 	z-index: 1;
 }   
@@ -98,16 +98,58 @@ li:hover ul#submenu2 {
 #submenu2 a {
 	background-color:#000000;
 }
-.screenshot{
+.randomstuff{
 	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-bottom: 100px;
 	text-align: center;
 	width: 100%;
 }
-.screenshot a{
+.randomstuff a{
 	color: white;
 	display: inline-block;
 	font-size: 50px;
+}
+.youtubevideos{
+	height: 500px;
+	width: 375px;
+	border: 10px solid rgba(0, 0, 0, 0.69);
+	border-radius: 50px;
+	margin: 0 auto;
+	transition: .34s;
+	flex-wrap: wrap;
+	background-color: rgba(153, 51, 51, 0.69);
+}
+.youtubevideos h3, a{
+	text-align: center;
+	text-decoration: none;
+	font-size: xx-large;
+}
+.youtubevideos dl a{
+	font-size: 21px;
+	color: wheat;
+}
+.youtubevideos:hover{
+	width: 400px;
+}
+.youtubevideos .a2{
+	text-align: center;
+	font-size: 22px;
+	color: white;
+}
+.randomvideos{
+	height: 500px;
+	width: 375px;
+	border: 10px solid rgba(0, 0, 0, 0.69);
+	border-radius: 50px;
+	margin: 0 auto;
+	transition: .34s;
+	flex-wrap: wrap;
+	background-color: rgba(153, 51, 51, 0.69);
+}
+.randomvideos:hover{
+	height: 525px;
+	width: 400px;
+	font-weight: 800;
 }
 footer{
 	text-align: center;
