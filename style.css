@@ -99,15 +99,27 @@ li:hover ul#submenu2 {
 	background-color:#000000;
 }
 .randomstuff{
-	padding-top: 75px;
+	height: 100px;
+	width: 690px;
+	border: 10px solid rgba(0, 0, 0, 0.69);
+	border-radius: 50px;
+	margin: 0 auto;
+	margin-top: 70px;
+	transition: .34s;
+	background-color: rgba(182, 171, 171, 0.69);
+	padding-top: 5px;
 	padding-bottom: 100px;
 	text-align: center;
-	width: 100%;
 }
 .randomstuff a{
 	color: white;
 	display: inline-block;
 	font-size: 50px;
+}
+.collectionstxt{
+	font-size: xx-large;
+	text-align: center;
+	padding-bottom: 50px;
 }
 .buttons h3{
 	text-align: center;
@@ -128,7 +140,6 @@ li:hover ul#submenu2 {
 	border-radius: 50px;
 	margin: 0 auto;
 	transition: .34s;
-	flex-wrap: wrap;
 	background-color: rgba(153, 51, 51, 0.69);
 }
 .youtubevideos a{
@@ -157,10 +168,21 @@ li:hover ul#submenu2 {
 	border-radius: 50px;
 	margin: 0 auto;
 	transition: .34s;
-	flex-wrap: wrap;
 	background-color: rgba(153, 51, 51, 0.69);
 }
 .randomvideos:hover{
+	width: 400px;
+}
+.favouritepictures{
+	height: 500px;
+	width: 375px;
+	border: 10px solid rgba(0, 0, 0, 0.69);
+	border-radius: 50px;
+	margin: 0 auto;
+	transition: .34s;
+	background-color: rgba(153, 51, 51, 0.69);
+}
+.favouritepictures:hover{
 	width: 400px;
 }
 footer{
