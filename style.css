@@ -109,6 +109,18 @@ li:hover ul#submenu2 {
 	display: inline-block;
 	font-size: 50px;
 }
+.buttons h3{
+	text-align: center;
+	font-size: xx-large;
+}
+.a2{
+	text-align: center;
+	font-size: xx-large;
+}
+.a2 a{
+	color: white;
+	text-decoration: none;
+}
 .youtubevideos{
 	height: 500px;
 	width: 375px;
@@ -119,22 +131,24 @@ li:hover ul#submenu2 {
 	flex-wrap: wrap;
 	background-color: rgba(153, 51, 51, 0.69);
 }
-.youtubevideos h3, a{
+.youtubevideos a{
 	text-align: center;
-	text-decoration: none;
 	font-size: xx-large;
 }
+.youtubevideos dl{
+	margin-left: 10px;
+	margin-right: 10px;
+}
 .youtubevideos dl a{
-	font-size: 21px;
+	font-size: 29px;
 	color: wheat;
+}
+.youtubevideos h3 a{
+	color: crimson;
+	text-decoration: none;
 }
 .youtubevideos:hover{
 	width: 400px;
-}
-.youtubevideos .a2{
-	text-align: center;
-	font-size: 22px;
-	color: white;
 }
 .randomvideos{
 	height: 500px;
@@ -147,9 +161,7 @@ li:hover ul#submenu2 {
 	background-color: rgba(153, 51, 51, 0.69);
 }
 .randomvideos:hover{
-	height: 525px;
 	width: 400px;
-	font-weight: 800;
 }
 footer{
 	text-align: center;
