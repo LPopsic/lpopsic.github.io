@@ -135,11 +135,11 @@ li:hover ul#submenu2 {
 	text-align: center;
 	font-size: xx-large;
 }
-.youtubevideos dl{
+.buttons dl{
 	margin-left: 10px;
 	margin-right: 10px;
 }
-.youtubevideos dl a{
+.buttons dl a{
 	font-size: 29px;
 	color: wheat;
 }
