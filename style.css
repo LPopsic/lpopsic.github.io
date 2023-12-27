@@ -111,10 +111,21 @@ li:hover ul#submenu2 {
 	padding-bottom: 100px;
 	text-align: center;
 }
-.randomstuff a{
+.randomstuff .randomstuffa{
 	color: white;
 	display: inline-block;
 	font-size: 50px;
+}
+.randomstuff dl{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.randomstuff dl dt a{
+	font-size: 22px;
+	color: wheat;
+}
+.randomstuff:hover{
+	width: 715px;
 }
 .collectionstxt{
 	font-size: xx-large;
