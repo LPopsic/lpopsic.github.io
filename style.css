@@ -15,7 +15,8 @@ iframe{
 }
 .prvr{
 	padding-top: 100px;
-	-webkit-text-stroke: 1.5px black;
+	font-size: 42px;
+	-webkit-text-stroke: 2.5px black;
 	padding-bottom: 25px;
     text-align: center;
     color: aqua;
@@ -48,7 +49,7 @@ header a {
 	transition: all .25s ease;
 }
 header li:hover a {
-	background: #000000;
+	background: #3079e6;
 }
 #submenu {
 	left: 0;
@@ -98,17 +99,16 @@ li:hover ul#submenu2 {
 #submenu2 a {
 	background-color:#000000;
 }
+
 .randomstuff{
 	height: 100px;
 	width: 690px;
 	border: 10px solid rgba(0, 0, 0, 0.69);
 	border-radius: 50px;
-	margin: 0 auto;
-	margin-top: 70px;
+	margin: 70px auto;
 	transition: .34s;
 	background-color: rgba(182, 171, 171, 0.69);
-	padding-top: 5px;
-	padding-bottom: 100px;
+	padding: 10px 0 100px;
 	text-align: center;
 }
 .randomstuff .randomstuffa{
@@ -117,8 +117,7 @@ li:hover ul#submenu2 {
 	font-size: 50px;
 }
 .randomstuff dl{
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 10px 10px 0 10px;
 }
 .randomstuff dl dt a{
 	font-size: 22px;
@@ -127,10 +126,46 @@ li:hover ul#submenu2 {
 .randomstuff:hover{
 	width: 715px;
 }
+
+.github{
+	margin: 75px 0 75px auto;
+	border: 6.9px solid rgb(0, 0, 0, 0.69);
+	border-radius: 50px;
+	background-color: rgba(128, 128, 128, 0.69);
+}
+.github img{
+	width: 125px;
+	margin-top: 12px;
+	padding-left: 250px;
+	position: absolute;
+	float: left;
+}
+.github h1, h2{
+	text-align: center;
+	font-size: 30px;
+	color: wheat;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.github h2 a{
+	text-align: center;
+	font-size: 30px;
+	color: wheat;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+.collections{
+	margin-top: 50px;
+	border: 6.9px solid rgb(255, 255, 255);
+	border-radius: 50px;
+}
 .collectionstxt{
 	font-size: xx-large;
 	text-align: center;
 	padding-bottom: 50px;
+}
+.buttons{
+	display: flex;
+	margin-bottom: 50px;
 }
 .buttons h3{
 	text-align: center;
@@ -158,8 +193,7 @@ li:hover ul#submenu2 {
 	font-size: xx-large;
 }
 .buttons dl{
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 0 10px 0 10px;
 }
 .buttons dl a{
 	font-size: 29px;

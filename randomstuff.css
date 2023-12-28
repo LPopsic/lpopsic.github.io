@@ -43,7 +43,7 @@ header a {
 	transition: all .25s ease;
 }
 header li:hover a {
-	background: #000000;
+	background: #3079e6;
 }
 #submenu {
 	left: 0;
