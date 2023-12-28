@@ -7,6 +7,9 @@ html{
 	color: white;
     padding: 0;
 }
+#smallbox {
+    cursor: pointer;
+}
 iframe{
     margin: 0 auto; 
     display: block;
@@ -99,7 +102,6 @@ li:hover ul#submenu2 {
 #submenu2 a {
 	background-color:#000000;
 }
-
 .randomstuff{
 	height: 100px;
 	width: 690px;
@@ -126,7 +128,6 @@ li:hover ul#submenu2 {
 .randomstuff:hover{
 	width: 715px;
 }
-
 .github{
 	margin: 75px 0 75px auto;
 	border: 6.9px solid rgb(0, 0, 0, 0.69);
@@ -152,12 +153,6 @@ li:hover ul#submenu2 {
 	color: wheat;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
-
-.collections{
-	margin-top: 50px;
-	border: 6.9px solid rgb(255, 255, 255);
-	border-radius: 50px;
-}
 .collectionstxt{
 	font-size: xx-large;
 	text-align: center;
@@ -170,14 +165,6 @@ li:hover ul#submenu2 {
 .buttons h3{
 	text-align: center;
 	font-size: xx-large;
-}
-.a2{
-	text-align: center;
-	font-size: xx-large;
-}
-.a2 a{
-	color: white;
-	text-decoration: none;
 }
 .youtubevideos{
 	height: 500px;
@@ -229,6 +216,112 @@ li:hover ul#submenu2 {
 }
 .favouritepictures:hover{
 	width: 400px;
+}
+.socials{
+	margin: 150px 0 100px;
+}
+.socials h1{
+	font-size: 55px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.socials dl dt{
+	text-align: center;
+	margin: 30px 0 30px;
+}
+.socials a{
+	color: white;
+	top: 45px;
+	position: relative;
+	margin-bottom: 100px;
+	text-decoration: none;
+	-webkit-text-stroke: 1.5px rgb(0, 0, 0);
+	font-size: 35px;
+	font-weight: 690;
+}
+.social_button1{
+	text-align: center;
+	margin: 0 15px 0 15px;
+	position: relative;
+	height: 150px;
+	width: 300px;
+	border-radius: 50px;
+	transition: .34s;
+	background-color: rgba(255, 0, 0, 0.69);
+	border: 5px rgba(0, 0, 0, 0.69) solid;
+}
+.social_button1:hover{
+	width: 320px;
+}
+.social_button2{
+	text-align: center;
+	margin: 0 15px 0 15px;
+	position: relative;
+	height: 150px;
+	width: 300px;
+	border-radius: 50px;
+	transition: .34s;
+	background-color: rgba(0, 204, 255, 0.69);
+	border: 5px rgba(0, 0, 0, 0.69) solid;
+}
+.social_button2:hover{
+	width: 320px;
+}
+.social_button3{
+	text-align: center;
+	margin: 0 15px 0 15px;
+	position: relative;
+	height: 150px;
+	width: 300px;
+	border-radius: 50px;
+	transition: .34s;
+	background-color: rgb(108, 70, 246);
+	border: 5px rgba(0, 0, 0, 0.69) solid;
+}
+.social_button3:hover{
+	width: 320px;
+}
+.social_button4{
+	text-align: center;
+	margin: 0 15px 0 15px;
+	position: relative;
+	height: 150px;
+	width: 300px;
+	border-radius: 50px;
+	transition: .34s;
+	background-color: rgba(180, 40, 255, 0.69);
+	border: 5px rgba(0, 0, 0, 0.69) solid;
+}
+.social_button4:hover{
+	width: 320px;
+}
+.social_button5{
+	text-align: center;
+	margin: 0 15px 0 15px;
+	position: relative;
+	height: 150px;
+	width: 300px;
+	border-radius: 50px;
+	transition: .34s;
+	background-color: rgba(20, 4, 40, 0.69);
+	border: 5px rgba(0, 0, 0, 0.69) solid;
+}
+.social_button5:hover{
+	width: 320px;
+}
+.social_button6{
+	text-align: center;
+	margin: 0 15px 0 15px;
+	position: relative;
+	height: 150px;
+	width: 300px;
+	border-radius: 50px;
+	transition: .34s;
+	background-color: rgba(228, 128, 35, 0.69);
+	border: 5px rgba(0, 0, 0, 0.69) solid;
+}
+.social_button6:hover{
+	width: 320px;
 }
 footer{
 	text-align: center;
