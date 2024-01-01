@@ -2,7 +2,7 @@ html{
     background-color: black;
     font-family: 'Manrope', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(31,38,64,1) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(100, 100, 100));
     margin: 0;
 	color: white;
     padding: 0;
@@ -22,14 +22,14 @@ header ul, header li {
 header ul {
 	background: gray;
 	list-style: none;
-	max-width: 2500px;
+	max-width: 2222px;
 }
 header li {
 	float: left;
 	position: relative;
 }
 header a {
-	background: #30A6E6;
+	background: #999999;
 	color: #FFFFFF;
 	display: block;
 	font: bold 12px/20px sans-serif;
@@ -43,14 +43,15 @@ header a {
 	transition: all .25s ease;
 }
 header li:hover a {
-	background: #3079e6;
+	background: #666666;
 }
 #submenu {
 	left: 0;
 	opacity: 0;
 	position: absolute;
 	top: 35px;
-    width: 468px;
+    width: 458px;
+	border: 3.5px solid black;
 	visibility: hidden;
 	z-index: 1;
 }   
@@ -64,17 +65,18 @@ li:hover ul#submenu {
 	width: 100%;
 }
 #submenu a:hover {
-	background: #DF4B05;
+	background: #666666;
 }
 #submenu a {
-	background-color:#000000;
+	background-color:#999999;
 }
 #submenu2 {
 	left: 0;
 	opacity: 0;
 	position: absolute;
 	top: 35px;
-    width: 468px;
+    width: 458px;
+	border: 3.5px solid black;
 	visibility: hidden;
 	z-index: 1;
 }   
@@ -88,20 +90,20 @@ li:hover ul#submenu2 {
 	width: 100%;
 }
 #submenu2 a:hover {
-	background: #DF4B05;
+	background: #666666;
 }
 #submenu2 a {
-	background-color:#000000;
+	background-color:#999999;
 }
 .selection1{
 	float: right;
 	font-size: larger;
-	margin: 37px 15px 0;
+	margin: 31px 15px 0;
 }
 .selection2{
 	float: left;
 	font-size: larger;
-	margin: 37px 0 0 -15px;
+	margin: 31px 0 0 -15px;
 }
 footer{
 	text-align: center;
