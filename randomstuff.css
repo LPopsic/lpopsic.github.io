@@ -93,6 +93,16 @@ li:hover ul#submenu2 {
 #submenu2 a {
 	background-color:#000000;
 }
+.selection1{
+	float: right;
+	font-size: larger;
+	margin: 37px 15px 0;
+}
+.selection2{
+	float: left;
+	font-size: larger;
+	margin: 37px 0 0 -15px;
+}
 footer{
 	text-align: center;
   	padding: 10px 0;
