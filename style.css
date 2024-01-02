@@ -62,8 +62,8 @@ header a {
 }
 header li:hover a {
 	background: #666666;
-}
-#submenu {
+} 
+#submenu, #submenu2{
 	left: 0;
 	opacity: 0;
 	position: absolute;
@@ -72,46 +72,21 @@ header li:hover a {
 	border: 3.5px solid black;
 	visibility: hidden;
 	z-index: 1;
-}   
-li:hover ul#submenu {
-	opacity: 1;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
-	visibility: visible;
 }
-#submenu li {
+#submenu li, #submenu2 li{
 	float: none;
 	width: 100%;
 }
-#submenu a:hover {
-	background: #666666;
-}
-#submenu a {
+#submenu a, #submenu2 a{
 	background-color:#999999;
 }
-#submenu2 {
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	top: 35px;
-    width: 364px;
-	border: 3.5px solid black;
-	visibility: hidden;
-	z-index: 1;
-}   
-li:hover ul#submenu2 {
+#submenu a:hover, #submenu2 a:hover{
+	background: #666666;
+}  
+li:hover ul#submenu, li:hover ul#submenu2{
 	opacity: 1;
 	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
 	visibility: visible;
-}
-#submenu2 li {
-	float: none;
-	width: 100%;
-}
-#submenu2 a:hover {
-	background: #666666;
-}
-#submenu2 a {
-	background-color:#999999;
 }
 .randomstuff{
 	height: 100px;
@@ -124,7 +99,7 @@ li:hover ul#submenu2 {
 	padding: 10px 0 100px;
 	text-align: center;
 }
-.randomstuff .randomstuffa{
+.randomstuff a{
 	color: white;
 	display: inline-block;
 	font-size: 50px;
@@ -164,31 +139,25 @@ li:hover ul#submenu2 {
 	color: wheat;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
-.collectionstxt{
+.collectionstxt, .buttons h3, .youtubevideos a{
 	font-size: xx-large;
 	text-align: center;
-	padding-bottom: 50px;
 }
 .buttons{
 	display: flex;
 	margin-bottom: 50px;
 }
-.buttons h3{
-	text-align: center;
-	font-size: xx-large;
-}
-.youtubevideos{
+.youtubevideos, .randomvideos, .favouritepictures{
 	height: 500px;
 	width: 375px;
 	border: 10px solid rgba(0, 0, 0, 0.69);
 	border-radius: 50px;
 	margin: 0 auto;
 	transition: .34s;
-	background-color: rgba(153, 51, 51, 0.69);
+	background-color: #666666;
 }
-.youtubevideos a{
-	text-align: center;
-	font-size: xx-large;
+.youtubevideos:hover, .randomvideos:hover, .favouritepictures:hover{
+	width: 400px;
 }
 .buttons dl{
 	margin: 0 10px 0 10px;
@@ -200,33 +169,6 @@ li:hover ul#submenu2 {
 .youtubevideos h3 a{
 	color: crimson;
 	text-decoration: none;
-}
-.youtubevideos:hover{
-	width: 400px;
-}
-.randomvideos{
-	height: 500px;
-	width: 375px;
-	border: 10px solid rgba(0, 0, 0, 0.69);
-	border-radius: 50px;
-	margin: 0 auto;
-	transition: .34s;
-	background-color: rgba(153, 51, 51, 0.69);
-}
-.randomvideos:hover{
-	width: 400px;
-}
-.favouritepictures{
-	height: 500px;
-	width: 375px;
-	border: 10px solid rgba(0, 0, 0, 0.69);
-	border-radius: 50px;
-	margin: 0 auto;
-	transition: .34s;
-	background-color: rgba(153, 51, 51, 0.69);
-}
-.favouritepictures:hover{
-	width: 400px;
 }
 .social_buttons{
 	display: flex;
@@ -257,7 +199,7 @@ li:hover ul#submenu2 {
 	margin-top: 25px;
 	width: 69px;
 }
-.social_button1{
+.social_button1, .social_button2, .social_button3, .social_button4, .social_button5, .social_button6{
 	text-align: center;
 	margin: 0 15px 0 15px;
 	position: relative;
@@ -265,80 +207,9 @@ li:hover ul#submenu2 {
 	width: 300px;
 	border-radius: 50px;
 	transition: .34s;
-	background-color: rgba(255, 0, 0, 0.69);
 	border: 5px rgba(0, 0, 0, 0.69) solid;
 }
-.social_button1:hover{
-	width: 320px;
-}
-.social_button2{
-	text-align: center;
-	margin: 0 15px 0 15px;
-	position: relative;
-	height: 150px;
-	width: 300px;
-	border-radius: 50px;
-	transition: .34s;
-	background-color: rgba(0, 204, 255, 0.69);
-	border: 5px rgba(0, 0, 0, 0.69) solid;
-}
-.social_button2:hover{
-	width: 320px;
-}
-.social_button3{
-	text-align: center;
-	margin: 0 15px 0 15px;
-	position: relative;
-	height: 150px;
-	width: 300px;
-	border-radius: 50px;
-	transition: .34s;
-	background-color: rgb(108, 70, 246);
-	border: 5px rgba(0, 0, 0, 0.69) solid;
-}
-.social_button3:hover{
-	width: 320px;
-}
-.social_button4{
-	text-align: center;
-	margin: 0 15px 0 15px;
-	position: relative;
-	height: 150px;
-	width: 300px;
-	border-radius: 50px;
-	transition: .34s;
-	background-color: rgba(180, 40, 255, 0.69);
-	border: 5px rgba(0, 0, 0, 0.69) solid;
-}
-.social_button4:hover{
-	width: 320px;
-}
-.social_button5{
-	text-align: center;
-	margin: 0 15px 0 15px;
-	position: relative;
-	height: 150px;
-	width: 300px;
-	border-radius: 50px;
-	transition: .34s;
-	background-color: rgba(20, 4, 40, 0.69);
-	border: 5px rgba(0, 0, 0, 0.69) solid;
-}
-.social_button5:hover{
-	width: 320px;
-}
-.social_button6{
-	text-align: center;
-	margin: 0 15px 0 15px;
-	position: relative;
-	height: 150px;
-	width: 300px;
-	border-radius: 50px;
-	transition: .34s;
-	background-color: rgba(228, 128, 35, 0.69);
-	border: 5px rgba(0, 0, 0, 0.69) solid;
-}
-.social_button6:hover{
+.social_button1:hover, .social_button2:hover, .social_button3:hover, .social_button4:hover, .social_button5:hover, .social_button6:hover{
 	width: 320px;
 }
 footer{

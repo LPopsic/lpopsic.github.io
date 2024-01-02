@@ -45,56 +45,26 @@ header a {
 header li:hover a {
 	background: #666666;
 }
-#submenu {
+#submenu, #submenu2{
 	left: 0;
 	opacity: 0;
 	position: absolute;
 	top: 35px;
-    width: 458px;
+    width: 364px;
 	border: 3.5px solid black;
 	visibility: hidden;
 	z-index: 1;
-}   
-li:hover ul#submenu {
-	opacity: 1;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
-	visibility: visible;
 }
-#submenu li {
+#submenu li, #submenu2 li{
 	float: none;
 	width: 100%;
 }
-#submenu a:hover {
-	background: #666666;
-}
-#submenu a {
+#submenu a, #submenu2 a{
 	background-color:#999999;
 }
-#submenu2 {
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	top: 35px;
-    width: 458px;
-	border: 3.5px solid black;
-	visibility: hidden;
-	z-index: 1;
-}   
-li:hover ul#submenu2 {
-	opacity: 1;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
-	visibility: visible;
-}
-#submenu2 li {
-	float: none;
-	width: 100%;
-}
-#submenu2 a:hover {
+#submenu a:hover, #submenu2 a:hover{
 	background: #666666;
-}
-#submenu2 a {
-	background-color:#999999;
-}
+} 
 .selection1{
 	float: right;
 	font-size: larger;
