@@ -44,27 +44,32 @@ header a {
 }
 header li:hover a {
 	background: #666666;
-}
-#submenu, #submenu2{
+} 
+#submenu, #submenu2, #submenu3{
 	left: 0;
 	opacity: 0;
 	position: absolute;
 	top: 35px;
-    width: 364px;
+  width: 365px;
 	border: 3.5px solid black;
 	visibility: hidden;
 	z-index: 1;
 }
-#submenu li, #submenu2 li{
+#submenu li, #submenu2 li, #submenu3 li{
 	float: none;
 	width: 100%;
 }
-#submenu a, #submenu2 a{
+#submenu a, #submenu2 a, #submenu3 a{
 	background-color:#999999;
 }
-#submenu a:hover, #submenu2 a:hover{
+#submenu a:hover, #submenu2 a:hover, #submenu3 a:hover{
 	background: #666666;
-} 
+}  
+li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
+	opacity: 1;
+	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+}
 .selection1{
 	float: right;
 	font-size: larger;
