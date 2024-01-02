@@ -25,10 +25,12 @@ header ul {
 	max-width: 2222px;
 }
 header li {
+	border-radius: 10px;	
 	float: left;
 	position: relative;
 }
 header a {
+	border-radius: 10px;	
 	background: #999999;
 	color: #FFFFFF;
 	display: block;
@@ -47,15 +49,16 @@ header li:hover a {
 } 
 #submenu, #submenu2, #submenu3{
 	left: 0;
+	border-radius: 10px;	
 	opacity: 0;
 	position: absolute;
 	top: 35px;
-  width: 365px;
+    width: 303px;
 	border: 3.5px solid black;
 	visibility: hidden;
 	z-index: 1;
 }
-#submenu li, #submenu2 li, #submenu3 li{
+#submenu li, #submenu2 li, #submenu3 li{	
 	float: none;
 	width: 100%;
 }
