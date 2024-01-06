@@ -78,7 +78,11 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 .container {
   padding-top: 100px;
   width: 770px;
-  margin: auto;
+  margin: 0 auto;
+}
+a{
+  font-size: 40px;
+  font-weight: 600;
 }
 
 h1{
