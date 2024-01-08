@@ -15,40 +15,47 @@ header{
 	height: 150px;
 }
 header img{
-	margin: 50px 0 0 20px;
+	margin: 50px 0 0 380px;
 	float: left;
 	width: 333px;
 }
-article{
+.article{
+	width: 550px;
 	padding-top: 100px;
 	position: relative;
-	display: block;
-	margin: 0 auto;
+	display: inline-block;
 }
-article img{
+.article_row{
+	display: inline-block;
+	margin-left: 375px;
+	margin-right: 375px;
+}
+.article img{
 	width: 520px;
 	height: 320px;
 	margin-left: 22px;
 }
-.articlecount{
-	display: inline-block;
-	color: red;
-}
-article h6{
+.article h6{
 	color: black;
 	margin-left: 22px;
 }
-article a{
+.article a{
 	color: black;
-	font-size: 24px;
+	font-size: 27px;
 	margin-left: 22px;
 	text-decoration: none;
 }
 .ad1{
 	margin: 0 auto;
 	height: 250px;
-	width: 1000px;
+	width: 1080px;
 	background-color: grey;
+}
+.ad1 h6{
+	margin: 0 auto;
+	height: 250px;
+	width: 1000px;
+	text-align: center;
 }
 footer{
 	text-align: center;
