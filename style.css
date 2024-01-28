@@ -121,7 +121,7 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	background-color: rgba(128, 128, 128, 0.69);
 }
 .github img{
-	width: 125px;
+	max-width: 125px;
 	margin-top: 12px;
 	padding-left: 250px;
 	position: absolute;
