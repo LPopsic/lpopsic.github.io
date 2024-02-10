@@ -93,6 +93,14 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	padding: 4rem;
 	width: 48rem;
 }
+.cs_main{
+	text-align: center;
+	font-size: 26px;
+}
+.cs_main h1{
+	padding-top: 100px;
+	font-size: 56px;
+}
 footer{
 	text-align: center;
   	padding: 10px 0;
