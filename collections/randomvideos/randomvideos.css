@@ -1,8 +1,7 @@
 html{
-    background-color: black;
+    background-color: white;
     font-family: 'Manrope', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(100, 100, 100));
     margin: 0;
 	color: white;
     padding: 0;
@@ -130,4 +129,28 @@ footer{
 .footer_links h6{
 	color: white; 
 	font-size: 2.5px;
+}	
+
+.video_preview{
+	height: 350px;
+	width: 500px;
+	display: grid;
+	color: black;
+	transition: .34s;
+	border-radius: 10px;
+	background-color: #fff;
+}
+.video_preview:hover{
+	height: 360px;
+	box-shadow: black 5px 5px 5px 5px;
+	width: 510px;
+}
+.video_preview img{
+	margin: 0 auto;
+	padding-top: 10px;
+	display: block;
+}
+.video_preview .description{
+	text-align: center;
+	margin: 0 15px 0 15px;
 }
