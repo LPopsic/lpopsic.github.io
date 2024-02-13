@@ -1,5 +1,5 @@
 html{
-    background-color: white;
+    background-color: rgb(200, 200, 200);
     font-family: 'Manrope', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
@@ -132,25 +132,37 @@ footer{
 }	
 
 .video_preview{
-	height: 350px;
-	width: 500px;
+	height: 360px;
+	width: 525px;
 	display: grid;
-	color: black;
 	transition: .34s;
 	border-radius: 10px;
-	background-color: #fff;
+	border: 5px solid white;
+	background-color: #333333;
 }
 .video_preview:hover{
-	height: 360px;
-	box-shadow: black 5px 5px 5px 5px;
-	width: 510px;
+	height: 370px;
+	box-shadow: rgba(0, 0, 0, 0.69) 5px 5px 5px 5px;
+	width: 535px;
 }
-.video_preview img{
+.video_preview .image{
 	margin: 0 auto;
 	padding-top: 10px;
 	display: block;
 }
+.video_preview .image .label-timestamp{
+	height: 20px;
+	width: 60px;
+	border-radius: 5px;
+	text-align: right;
+	padding-right: 5px;
+	position: absolute;
+	background-color: black;
+}
+.video_preview .image .label-timestamp img{
+	margin: 0 auto;
+}
 .video_preview .description{
 	text-align: center;
-	margin: 0 15px 0 15px;
+	margin: 15px 15px 0 15px;
 }
