@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(150, 150, 150);
     font-family: 'Manrope', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
@@ -131,23 +131,26 @@ footer{
 	font-size: 2.5px;
 }	
 
+.twe h1{
+	font-size: 50px;
+	-webkit-text-stroke: 3px rgb(0, 0, 0);
+}
 .video_preview{
+	margin: 34px 50px 50px 0;
 	height: 360px;
-	width: 525px;
-	display: grid;
+	width: 520px;
+	display: inline-block;
 	transition: .34s;
 	border-radius: 10px;
 	border: 5px solid white;
 	background-color: #333333;
 }
 .video_preview:hover{
-	height: 370px;
 	box-shadow: rgba(0, 0, 0, 0.69) 5px 5px 5px 5px;
-	width: 535px;
 }
 .video_preview .image{
 	margin: 0 auto;
-	padding-top: 10px;
+	padding-top: 12.5px;
 	display: block;
 }
 .video_preview .image .label-timestamp{
