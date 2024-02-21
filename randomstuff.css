@@ -114,6 +114,7 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 .reminder{
 	height: 90px;
 	width: 100%;
+	border-radius: 10px;
 	background-color: rgb(255, 69, 69);
 }
 .reminder h3{

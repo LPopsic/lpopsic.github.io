@@ -225,3 +225,14 @@ footer{
 	color: white; 
 	font-size: 2.5px;
 }
+.reminder{
+	height: 90px;
+	width: 100%;
+	border-radius: 10px;
+	background: linear-gradient(90deg, rgba(255,156,33,1) 25%, rgba(0,255,248,1) 55%, rgba(0,255,0,1) 90%);
+}
+.reminder h3{
+	font-size: 30px;
+	-webkit-text-stroke: black 1.5px;
+	text-align: center;
+}
