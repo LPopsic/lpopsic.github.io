@@ -33,6 +33,8 @@ header ul {
 	max-width: 2222px;
 }
 header li {
+  width: 19.62%; 
+	border: 3.5px solid black;
 	float: left;
 	position: relative;
 }
@@ -58,7 +60,7 @@ header li:hover a {
 	opacity: 0;
 	position: absolute;
 	top: 35px;
-  width: 365px;
+  width: 361px;
 	border: 3.5px solid black;
 	visibility: hidden;
 	z-index: 1;
@@ -504,3 +506,28 @@ footer{
 	color: white; 
 	font-size: 2.5px;
 }	
+@media screen and (max-width: 1850px) {
+	header ul, li{
+		max-width: 1580px;
+	}
+	header li{
+		width: 18.6%; 
+	}
+	#submenu1, #submenu2, #submenu3{
+		width: 250px;
+	}
+}
+@media screen and (max-width: 850px) {
+	header ul, li{
+		max-width: 1200px;
+	}
+	header li{
+		width: 17%; 
+	}
+	.reminder h3{
+		font-size: 25px;
+	}
+	#submenu, #submenu2, #submenu3{
+		width: 150px;
+	}
+}

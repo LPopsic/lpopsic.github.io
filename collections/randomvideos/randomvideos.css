@@ -169,3 +169,28 @@ footer{
 	text-align: center;
 	margin: 15px 15px 0 15px;
 }
+@media screen and (max-width: 1850px) {
+	header ul, li{
+		max-width: 1580px;
+	}
+	header li{
+		width: 18.6%; 
+	}
+	#submenu1, #submenu2, #submenu3{
+		width: 250px;
+	}
+}
+@media screen and (max-width: 850px) {
+	header ul, li{
+		max-width: 1200px;
+	}
+	header li{
+		width: 17%; 
+	}
+	.reminder h3{
+		font-size: 25px;
+	}
+	#submenu, #submenu2, #submenu3{
+		width: 150px;
+	}
+}
