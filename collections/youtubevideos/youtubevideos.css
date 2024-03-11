@@ -1,7 +1,8 @@
 html{
-    background-color: rgb(150, 150, 150);
+    background-color: black;
     font-family: 'Manrope', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(100, 100, 100));
     margin: 0;
 	color: white;
     padding: 0;
@@ -13,7 +14,7 @@ h1{
     padding-top: 100px;
     text-align: center;
 }
-dt a{
+a{
     color: wheat;
     padding-left: 25px;
 }
@@ -74,16 +75,6 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
 	visibility: visible;
 }
-.selection1{
-	float: right;
-	font-size: larger;
-	margin: 31px 15px 0;
-}
-.selection2{
-	float: left;
-	font-size: larger;
-	margin: 31px 0 0 5px;
-}
 .container a{
 	font-size: 40px;
 	font-weight: 600;
@@ -97,20 +88,22 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	padding: 4rem;
 	width: 48rem;
 }
-.cs_main{
-	text-align: center;
-	font-size: 26px;
-}
-.cs_main h1{
-	padding-top: 100px;
-	font-size: 56px;
-}
-.favouritepictures_dl{
+dl{
 	margin: 0 100px 0 69px;
 	background-color: #333333;
 	padding: 25px 25px 25px 25px;
 	border-radius: 25px;
 	border: 5px white solid;
+}
+.reminder{
+	height: 90px;
+	width: 100%;
+	border-radius: 10px;
+	background-color: rgb(255, 69, 69);
+}
+.reminder h3{
+	font-size: 30px;
+	text-align: center;
 }
 footer{
 	text-align: center;
@@ -131,45 +124,6 @@ footer{
 .footer_links h6{
 	color: white; 
 	font-size: 2.5px;
-}	
-
-.twe h1{
-	font-size: 50px;
-	-webkit-text-stroke: 3px rgb(0, 0, 0);
-}
-.video_preview{
-	margin: 34px 50px 50px 0;
-	height: 360px;
-	width: 520px;
-	display: inline-block;
-	transition: .34s;
-	border-radius: 10px;
-	border: 5px solid white;
-	background-color: #333333;
-}
-.video_preview:hover{
-	box-shadow: rgba(0, 0, 0, 0.69) 5px 5px 5px 5px;
-}
-.video_preview .image{
-	margin: 0 auto;
-	padding-top: 12.5px;
-	display: block;
-}
-.video_preview .image .label-timestamp{
-	height: 20px;
-	width: 60px;
-	border-radius: 5px;
-	text-align: right;
-	padding-right: 5px;
-	position: absolute;
-	background-color: black;
-}
-.video_preview .image .label-timestamp img{
-	margin: 0 auto;
-}
-.video_preview .description{
-	text-align: center;
-	margin: 15px 15px 0 15px;
 }
 @media screen and (max-width: 1850px) {
 	header ul, li{
