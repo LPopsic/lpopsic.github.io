@@ -163,23 +163,23 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	display: flex;
 	margin-bottom: 50px;
 }
-.youtubevideos, .randomvideos, .favouritepictures{
-	height: 550px;
-	width: 425px;
+.youtubevideos, .randomvideos, .favouritepictures, .weirdconversations{
+	height: 500px;
+	width: 375px;
 	border: 10px solid rgba(0, 0, 0, 0.69);
 	border-radius: 50px;
 	margin: 0 auto;
 	transition: .34s;
 	background-color: #666666;
 }
-.youtubevideos:hover, .randomvideos:hover, .favouritepictures:hover{
-	width: 450px;
+.youtubevideos:hover, .randomvideos:hover, .favouritepictures:hover, .weirdconversations:hover{
+	width: 400px;
 }
 .buttons dl{
 	margin: 0 10px 0 10px;
 }
 .buttons dl a{
-	font-size: 29px;
+	font-size: 24px;
 	color: wheat;
 }
 .youtubevideos h3 a{
