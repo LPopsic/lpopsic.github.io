@@ -155,13 +155,19 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	color: wheat;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 }
-.collectionstxt, .buttons h3, .youtubevideos a{
+.collectionstxt, .buttons h3, .buttons2 h3, .youtubevideos a{
 	font-size: xx-large;
 	text-align: center;
 }
 .buttons{
-	display: flex;
 	margin-bottom: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.buttons2{
+	margin-bottom: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 .youtubevideos, .randomvideos, .favouritepictures, .weirdconversations{
 	height: 500px;
@@ -179,6 +185,13 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	margin: 0 10px 0 10px;
 }
 .buttons dl a{
+	font-size: 22px;
+	color: wheat;
+}
+.buttons2 dl{
+	margin: 0 10px 0 10px;
+}
+.buttons2 dl a{
 	font-size: 22px;
 	color: wheat;
 }
