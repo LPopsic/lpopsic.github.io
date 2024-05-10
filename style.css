@@ -675,7 +675,7 @@ footer{
 	height: 90px;
 	width: 100%;
 	border-radius: 10px;
-	background: rgb(0, 157, 255);
+	background: red;
 }
 .reminder h3{
 	font-size: 30px;
