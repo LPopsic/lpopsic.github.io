@@ -257,19 +257,19 @@ div h1{
 div h1 a{
 	color: red;
 	text-decoration: none;
-  }
-  .chart {
+}
+.chart {
 	position: relative;
 	border: 5px solid white;
 	padding: 1em;
 	background: #222;
 	border-radius: 10px;
 	font-size: 16px;
-  }
-  .chart * {
+}
+.chart * {
 	box-sizing: border-box;
-  }
-  /* .chart:after {
+}
+.chart:before {
 	content: "";
 	position: absolute;
 	left: 25%;
@@ -279,11 +279,11 @@ div h1 a{
 	background: #FFF;
 	height: 86%;
 	border-radius: 2px;
-  } */
-  .chart .part {
+}
+.chart .part {
 	display: flex;
 	height: 3em;
-  }
+}
   .chart .part > .label {
 	flex: 1;
 	flex-basis: 25%;
