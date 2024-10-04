@@ -138,7 +138,8 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	width: 715px;
 }
 .github{
-	margin: 75px 0 75px auto;
+	width: 69%;
+	margin: 0 auto;
 	border: 6.9px solid rgb(0, 0, 0, 0.69);
 	border-radius: 50px;
 	background-color: rgba(128, 128, 128, 0.69);
@@ -201,17 +202,13 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 }
 .social_buttons{
 	display: flex;
-	margin: 150px 0 100px;
+	margin: 0 auto;
 }
 .socials h1{
 	font-size: 55px;
 	text-align: center;
 	margin-bottom: 100px;
 }
-/* .social_buttons dl dt{
-	text-align: center;
-	margin: 30px 0 30px;
-} */
 .social_buttons p{
 	color: white;
 	margin-top: 25px;
@@ -273,6 +270,17 @@ div h1 a{
 	content: "";
 	position: absolute;
 	left: 25%;
+	top: 7.5%;
+	transform: translateX(100%);
+	width: 4px;
+	background: #FFF;
+	height: 86%;
+	border-radius: 2px;
+}
+.chart:after {
+	content: "";
+	position: absolute;
+	left: 97%;
 	top: 7.5%;
 	transform: translateX(100%);
 	width: 4px;

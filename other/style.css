@@ -109,17 +109,27 @@ a{
   box-sizing: border-box;
 }
 .chart:before {
-  content: "";
-  position: absolute;
-  left: 25%;
-  top: 7.5%;
-  transform: translateX(100%);
-  width: 4px;
-  background: #FFF;
-  height: 86%;
-  border-radius: 2px;
+	content: "";
+	position: absolute;
+	left: 25%;
+	top: 7.5%;
+	transform: translateX(100%);
+	width: 4px;
+	background: #FFF;
+	height: 86%;
+	border-radius: 2px;
 }
-
+.chart:after {
+	content: "";
+	position: absolute;
+	left: 97%;
+	top: 7.5%;
+	transform: translateX(100%);
+	width: 4px;
+	background: #FFF;
+	height: 86%;
+	border-radius: 2px;
+}
 .chart .part {
   display: flex;
   height: 3em;
