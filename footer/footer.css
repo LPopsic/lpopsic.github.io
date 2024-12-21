@@ -27,11 +27,12 @@ header li {
 	max-width: 2000px;
 	float: left;
 	position: relative;
-	width: 16.3%; 
-	border: 3.5px solid black;
+	width: 19.62%; 
+	/* border: 3.5px solid black; */ /* add this back on 2025/01/01 */
 }
 header a {
-	background: #999999;
+	/* background: #999999; */ /* add this back on 2025/01/01 */
+	background: #30A6E6; /* remove this on 2025/01/01 */
 	color: #FFFFFF;
 	display: block;
 	font: bold 12px/20px sans-serif;
@@ -45,7 +46,8 @@ header a {
 	transition: all .25s ease;
 }
 header li:hover a {
-	background: #666666;
+	/* background: #666666; */ /* add this back on 2025/01/01 */
+	background: #000000; /* remove this on 2025/01/01 */
 } 
 #submenu, #submenu2, #submenu3{
 	left: 0;	
@@ -53,7 +55,7 @@ header li:hover a {
 	position: absolute;
 	top: 35px;
     width: 301px;
-	border: 2.5px solid black;
+	/* border: 2.5px solid black; */ /* add this back on 2025/01/01 */
 	visibility: hidden;
 	z-index: 1;
 }
@@ -62,10 +64,12 @@ header li:hover a {
 	width: 100%;
 }
 #submenu a, #submenu2 a, #submenu3 a{
-	background-color:#999999;
+	/* background-color:#999999; */ /* add this back on 2025/01/01 */
+	background-color:#000000; /* remove this on 2025/01/01 */
 }
 #submenu a:hover, #submenu2 a:hover, #submenu3 a:hover{
-	background: #666666;
+	/* background: #666666; */ /* add this back on 2025/01/01 */
+	background: #DF4B05; /* remove this on 2025/01/01 */
 }  
 li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	opacity: 1;
