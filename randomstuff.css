@@ -2,7 +2,7 @@ html{
     background-color: black;
     font-family: 'Manrope', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(31, 38, 65));
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(100, 100, 100));
     margin: 0;
 	color: white;
     padding: 0;
@@ -32,11 +32,10 @@ header li {
 	float: left;
 	position: relative;
 	width: 19.62%; 
-	/* border: 3.5px solid black; */ /* add this back on 2025/01/01 */
+	border: 3.5px solid black;
 }
 header a {
-	/* background: #999999; */ /* add this back on 2025/01/01 */
-	background: #30A6E6; /* remove this on 2025/01/01 */
+	background: #999999;
 	color: #FFFFFF;
 	display: block;
 	font: bold 12px/20px sans-serif;
@@ -50,16 +49,15 @@ header a {
 	transition: all .25s ease;
 }
 header li:hover a {
-	/* background: #666666; */ /* add this back on 2025/01/01 */
-	background: #000000; /* remove this on 2025/01/01 */
+	background: #666666;
 } 
 #submenu, #submenu2, #submenu3{
 	left: 0;	
 	opacity: 0;
 	position: absolute;
 	top: 35px;
-    width: 301px;
-	/* border: 2.5px solid black; */ /* add this back on 2025/01/01 */
+    width: 363px;
+	border: 2.5px solid black;
 	visibility: hidden;
 	z-index: 1;
 }
@@ -68,12 +66,10 @@ header li:hover a {
 	width: 100%;
 }
 #submenu a, #submenu2 a, #submenu3 a{
-	/* background-color:#999999; */ /* add this back on 2025/01/01 */
-	background-color:#000000; /* remove this on 2025/01/01 */
+	background-color:#999999;
 }
 #submenu a:hover, #submenu2 a:hover, #submenu3 a:hover{
-	/* background: #666666; */ /* add this back on 2025/01/01 */
-	background: #DF4B05; /* remove this on 2025/01/01 */
+	background: #666666;
 }  
 li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	opacity: 1;
