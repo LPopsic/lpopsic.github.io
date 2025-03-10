@@ -662,7 +662,7 @@ div h1 a{
 footer{
 	text-align: center;
   	padding: 10px 0;
-  	margin-top: 25px;
+  	margin-top: 125px;
   	background-color: #000000a1;
 }
 .footer_links{
@@ -683,7 +683,8 @@ footer{
 	height: 90px;
 	width: 100%;
 	border-radius: 10px;
-	background: red;
+	/*background: red;*/
+	background: linear-gradient(90deg, rgba(255,184,28,1) 25%, rgba(4,106,56,1) 55%, rgba(190,58,52,1) 90%); 
 }
 .reminder h3{
 	font-size: 30px;
