@@ -110,7 +110,7 @@ a{
 .chart * {
   box-sizing: border-box;
 }
-/* .chart:before {
+.chart:before {
 	content: "";
 	position: absolute;
 	left: 25%;
@@ -131,7 +131,7 @@ a{
 	background: #FFF;
 	height: 86%;
 	border-radius: 2px;
-} */
+}
 .chart .part {
   display: flex;
   height: 3em;
