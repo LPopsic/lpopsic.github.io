@@ -162,12 +162,18 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 }
 .buttons{
 	margin-bottom: 50px;
-	display: grid;
+	display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 	grid-template-columns: 1fr 1fr 1fr;
 }
 .buttons2{
 	margin-bottom: 50px;
-	display: grid;
+	display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 	grid-template-columns: 1fr 1fr;
 }
 .youtubevideos, .randomvideos, .favouritepictures, .weirdconversations{
