@@ -1,4 +1,4 @@
-html{
+body{
 	background-color: rgb(100, 100, 100);
     font-family: 'Manrope', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -27,12 +27,33 @@ iframe{
 	border-radius: 30px;
 }
 .prvr{
-	padding-top: 100px;
+	padding-top: 150px;
 	font-size: 42px;
 	-webkit-text-stroke: 2.5px black;
 	padding-bottom: 25px;
     text-align: center;
     color: rgb(169, 169, 169s);
+}
+
+.popsiclbar{
+	display: flex;
+	margin-top: -30px;
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	animation: gradient 5s linear infinite;
+	background: linear-gradient(90deg,rgba(177, 0, 254, 1), rgba(62, 1, 255, 1), rgba(71, 3, 12, 1));
+	z-index: 1;
+}
+header{
+	border: 2px solid white;
+	display: block;
+	position: fixed;
+	justify-content: flex-end;
+	background-color: #999999;
+	width: 100%;
+	height: 70px;
+	z-index: 1;
 }
 header ul, header li {
 	margin: 0;
@@ -41,21 +62,18 @@ header ul, header li {
 header ul {
 	background: gray;
 	list-style: none;
-	max-width: 2222px;
 }
 header li {
-	max-width: 2000px;
-	float: left;
+	float: right;
+	margin-left: auto;
 	position: relative;
-	width: 16.3%; 
-	border: 3.5px solid black;
 }
 header a {
 	background: #999999;
 	color: #FFFFFF;
 	display: block;
 	font: bold 12px/20px sans-serif;
-	padding: 10px 25px;
+	padding: 25px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-transition: all .25s ease;
@@ -66,16 +84,18 @@ header a {
 }
 header li:hover a {
 	background: #666666;
-} 
+}
+.dropdowns{
+	width: 300px;
+}
 #submenu, #submenu2, #submenu3{
 	left: 0;	
 	opacity: 0;
+	top: 100px;
 	position: absolute;
-	top: 35px;
-    width: 301px;
-	border: 2.5px solid black;
+    width: 298px;
+	z-index: 2;
 	visibility: hidden;
-	z-index: 1;
 }
 #submenu li, #submenu2 li, #submenu3 li{	
 	float: none;
@@ -89,9 +109,21 @@ header li:hover a {
 }  
 li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	opacity: 1;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	top: 70px;	/*adjust this as per top nav padding top & bottom comes*/
 	visibility: visible;
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
 }
+.logo{
+	float: left;
+}
+.logo img{
+    width: 200px;
+	margin-right: auto;
+	position: relative;
+}
+
 .incident{
 	margin: 100px auto;
 	height: 380px;
@@ -139,7 +171,7 @@ li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 }
 .github{
 	width: 69%;
-	margin: 0 auto;
+	margin: 50px auto 50px auto;
 	border: 6.9px solid rgb(0, 0, 0, 0.69);
 	border-radius: 50px;
 	background-color: rgba(128, 128, 128, 0.69);
@@ -298,7 +330,7 @@ div h1 a{
 	display: flex;
 	height: 3em;
 }
-  .chart .part > .label {
+.chart .part > .label {
 	flex: 1;
 	flex-basis: 25%;
 	text-align: right;
@@ -308,14 +340,14 @@ div h1 a{
 	line-height: 2em;
 	color: #FFF;
 	font-weight: 600;
-  }
-  .chart .part .bar {
+}
+.chart .part .bar {
 	flex: 3;
 	flex-basis: 75%;
 	position: relative;
 	margin: 0.5em 0;
-  }
-  .chart .part .bar:after {
+}
+.chart .part .bar:after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -324,20 +356,20 @@ div h1 a{
 	border-radius: 0 2px 2px 0;
 	-webkit-animation: grow 0.5s;
 			animation: grow 0.5s;
-  }
-  .chart .part .bar.red:after {
+}
+.chart .part .bar.red:after {
 	background: #f22;
-  }
-  .chart .part .bar.yellow:after {
+}
+.chart .part .bar.yellow:after {
 	background: rgb(170, 147, 85);
-  }
-  .chart .part .bar.green:after {
+}
+.chart .part .bar.green:after {
 	background: #2a5;
-  }
-  .chart .part .bar.blue:after {
+}
+.chart .part .bar.blue:after {
 	background: #56a;
-  }
-  .chart .part .bar .label {
+}
+.chart .part .bar .label {
 	position: absolute;
 	top: 50%;
 	left: 0.5em;
@@ -345,7 +377,7 @@ div h1 a{
 	z-index: 1;
 	color: #FFF;
 	font-weight: 600;
-  }
+}
   .chart .part.percent-1 .bar:after {
 	width: 1%;
   }
@@ -686,8 +718,11 @@ footer{
 	font-size: 2.5px;
 }
 .reminder{
-	height: 90px;
-	width: 99.66%;
+	height: 30px;
+	display: flex;
+	margin-top: 74px;
+	position: fixed;
+	width: 100%;
 	border-radius: 10px;
 	/*background: red;*/
 	background: linear-gradient(90deg, rgba(76,148,255,1) 25%, rgba(212,42,165,1) 55%, rgba(255,190,0,1) 90%);
@@ -696,29 +731,4 @@ footer{
 	font-size: 30px;
 	-webkit-text-stroke: black 1.5px;
 	text-align: center;
-}
-@media screen and (max-width: 1850px) {
-	header ul, li{
-		max-width: 1580px;
-	}
-	header li{
-		width: 15.8%; 
-	}
-	#submenu1, #submenu2, #submenu3{
-		width: 250px;
-	}
-}
-@media screen and (max-width: 850px) {
-	header ul, li{
-		max-width: 1200px;
-	}
-	header li{
-		width: 15.6%; 
-	}
-	.reminder h3{
-		font-size: 25px;
-	}
-	#submenu, #submenu2, #submenu3{
-		width: 150px;
-	}
 }

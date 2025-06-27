@@ -1,22 +1,44 @@
-html{
-    background-color: black;
+body{
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(100, 100, 100));
     font-family: 'Manrope', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(100, 100, 100));
     margin: 0;
 	color: white;
     padding: 0;
+	z-index: -1;
+}
+.html2{
+	background-color: rgba(69, 69, 69, 0.5);
+	width: 95%;
+	height: 95%;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -2;
 }
 #smallbox {
     cursor: pointer;
 }
-h1{
-    padding-top: 100px;
-    text-align: center;
+.popsiclbar{
+	display: flex;
+	margin-top: -30px;
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	animation: gradient 5s linear infinite;
+	background: linear-gradient(90deg,rgba(177, 0, 254, 1), rgba(62, 1, 255, 1), rgba(71, 3, 12, 1));
+	z-index: 1;
 }
-dt a{
-    color: wheat;
-    padding-left: 25px;
+header{
+	border: 2px solid white;
+	display: block;
+	position: fixed;
+	justify-content: flex-end;
+	background-color: #999999;
+	width: 100%;
+	height: 70px;
+	z-index: 1;
 }
 header ul, header li {
 	margin: 0;
@@ -25,21 +47,18 @@ header ul, header li {
 header ul {
 	background: gray;
 	list-style: none;
-	max-width: 2222px;
 }
 header li {
-	max-width: 2000px;
-	float: left;
+	float: right;
+	margin-left: auto;
 	position: relative;
-	width: 19.62%; 
-	border: 3.5px solid black;
 }
 header a {
 	background: #999999;
 	color: #FFFFFF;
 	display: block;
 	font: bold 12px/20px sans-serif;
-	padding: 10px 25px;
+	padding: 25px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-transition: all .25s ease;
@@ -50,16 +69,18 @@ header a {
 }
 header li:hover a {
 	background: #666666;
-} 
+}
+.dropdowns{
+	width: 300px;
+}
 #submenu, #submenu2, #submenu3{
 	left: 0;	
 	opacity: 0;
+	top: 100px;
 	position: absolute;
-	top: 35px;
-    width: 363px;
-	border: 2.5px solid black;
+    width: 298px;
+	z-index: 2;
 	visibility: hidden;
-	z-index: 1;
 }
 #submenu li, #submenu2 li, #submenu3 li{	
 	float: none;
@@ -73,18 +94,39 @@ header li:hover a {
 }  
 li:hover ul#submenu, li:hover ul#submenu2, li:hover ul#submenu3{
 	opacity: 1;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
+	top: 70px;	/*adjust this as per top nav padding top & bottom comes*/
 	visibility: visible;
+	border-bottom: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+}
+.logo{
+	float: left;
+}
+.logo img{
+    width: 200px;
+	margin-right: auto;
+	position: relative;
+}
+
+h1{
+    padding-top: 150px;
+	margin-top: 29px;
+    text-align: center;
+}
+dt a{
+    color: wheat;
+    padding-left: 50px;
 }
 .selection1{
 	float: right;
 	font-size: larger;
-	margin: 31px 15px 0;
+	margin: 120px 15px 5px 0;
 }
 .selection2{
 	float: left;
 	font-size: larger;
-	margin: 31px 0 0 5px;
+	margin: 120px 0 0 15px;
 }
 .container a{
 	font-size: 40px;
@@ -143,29 +185,4 @@ footer{
 .footer_links h6{
 	color: white; 
 	font-size: 2.5px;
-}
-@media screen and (max-width: 1850px) {
-	header ul, li{
-		max-width: 1580px;
-	}
-	header li{
-		width: 18.6%; 
-	}
-	#submenu1, #submenu2, #submenu3{
-		width: 250px;
-	}
-}
-@media screen and (max-width: 850px) {
-	header ul, li{
-		max-width: 1200px;
-	}
-	header li{
-		width: 17%; 
-	}
-	.reminder h3{
-		font-size: 25px;
-	}
-	#submenu, #submenu2, #submenu3{
-		width: 150px;
-	}
 }
