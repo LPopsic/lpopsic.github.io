@@ -718,17 +718,18 @@ footer{
 	font-size: 2.5px;
 }
 .reminder{
-	height: 30px;
-	display: flex;
+	height: 60px;
 	margin-top: 74px;
 	position: fixed;
 	width: 100%;
 	border-radius: 10px;
 	/*background: red;*/
-	background: linear-gradient(90deg, rgba(76,148,255,1) 25%, rgba(212,42,165,1) 55%, rgba(255,190,0,1) 90%);
+	background: linear-gradient(90deg,rgba(255, 255, 255, 1) 5%, rgba(0, 0, 0, 1) 50%, rgba(255, 255, 255, 1) 95%);
 }
 .reminder h3{
 	font-size: 30px;
+	position: relative;
+	top: -17.5px;
 	-webkit-text-stroke: black 1.5px;
 	text-align: center;
 }
